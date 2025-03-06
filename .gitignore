@@ -1,0 +1,56 @@
+# Local files and folders
+*.pt
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and other runtime files
+*.log
+*.out
+*.err
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Python tool files
+*.egg-info/
+*.eggs/
+build/
+dist/
+
+# Unit test and coverage results
+htmlcov/
+.coverage
+*.cover
+.cache
+nosetests.xml
+coverage.xml
+*.pytest_cache/
+.pytest_cache/
+
+# MyPy type checking cache
+.mypy_cache/
+
+# IDE/editor config files
+.vscode/
+.idea/
+
+# Flask/Django local settings
+instance/
+*.sqlite3
+db.sqlite3
+
+# Environment files
+.env
+.env.*

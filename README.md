@@ -28,7 +28,7 @@ pip install opencv-contrib-python
 ## To use auto train:
 ```
 from autotrain_vision import AutoTrain
-at = AutoTrain(combined_folder="/path/to/local/folder")
+at = AutoTrain(data_folder="/path/to/local/folder", image_threshold=100, epochs=60)
 at.run()
 ```
 
